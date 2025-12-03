@@ -14,7 +14,7 @@ producer/.mvn/wrapper/maven-wrapper.jar
 .sts4-cache
 
 ### IntelliJ IDEA ###
-producer/.idea
+.idea
 *.iws
 *.iml
 *.ipr
