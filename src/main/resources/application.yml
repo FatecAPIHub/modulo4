@@ -14,5 +14,8 @@ kafka:
 logging:
   level:
     root: INFO
-    com.projeto.faculdade: DEBUG
+    br:
+      com:
+        fatec:
+          modulo4: DEBUG
     org.apache.kafka: WARN
