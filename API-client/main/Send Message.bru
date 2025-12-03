@@ -1,0 +1,24 @@
+meta {
+  name: Send Message
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/mensangens
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "conteudo": "Ola Kafka",
+    "remetente": "Aluno",
+    "prioridade": "ALTA"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

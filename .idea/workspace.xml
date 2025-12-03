@@ -40,9 +40,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "I do mind",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gxil/Documents/modulo4/consumer-2",
+    "last_opened_file_path": "/home/gxil/Documents/modulo4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +100,7 @@
       <workItem from="1764788093839" duration="1861000" />
       <workItem from="1764790403997" duration="32000" />
       <workItem from="1764790805225" duration="701000" />
+      <workItem from="1764791929554" duration="1014000" />
     </task>
     <servers />
   </component>
