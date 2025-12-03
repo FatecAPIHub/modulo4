@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: kafka-producer
+  kafka:
+    bootstrap-servers: localhost:19092,localhost:19093,localhost:19094
+
+kafka:
+  topic:
+    name: mensagens-projeto
+
+logging:
+  level:
+    root: INFO
+    com.projeto.faculdade: DEBUG
+    org.apache.kafka: WARN
