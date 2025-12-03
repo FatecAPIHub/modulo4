@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: kafka-consumer-1
+  kafka:
+    bootstrap-servers: localhost:19092,localhost:19093,localhost:19094
+    consumer:
+      group-id: grupo-consumer-1
+
+kafka:
+  topic:
+    name: mensagens-projeto
+
+logging:
+  level:
+    root: INFO
+    com.projeto.faculdade: DEBUG
+    org.apache.kafka: WARN
